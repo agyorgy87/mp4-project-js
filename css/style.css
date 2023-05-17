@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, #29323c 0%, #485563 100%);
+    overflow: hidden;
+}
+
+.video-player {
+    max-width: 40%;
+    border: 2px solid #171c22;
+    position: relative;
+    background-color: #171c22;
+}
+
+.video {
+    max-width: 100%;
+}
+
+.controls {
+    height: 25px;
+    background-color: #171c22;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.play-button {
+    height: 20px;
+    width: 40px;
+    border:none;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
